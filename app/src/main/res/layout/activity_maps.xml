@@ -1,0 +1,63 @@
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40">
+
+            <EditText
+                android:text=""
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Esearch" />
+
+            <Button
+                android:text="@string/search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Bsearch"
+                android:layout_weight="1"
+                android:onClick="onSearch"/>
+
+            <Button
+                android:text="@string/ButtonReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Breturn"
+                android:layout_weight="1"
+                android:onClick="onMenu"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sniketn_pc.diabeticmanagement.MapsActivity" />
+    </LinearLayout>
+
+
+</LinearLayout>

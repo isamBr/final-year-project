@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <!-- date select -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/in_date"
+                    android:inputType="date"
+                    android:layout_marginTop="82dp"
+                    android:layout_weight="1"
+                    android:elegantTextHeight="false" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:text="@string/SELECT_DATE"
+                    android:id="@+id/btn_date"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:elegantTextHeight="false" />
+                <!-- time select -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:id="@+id/in_time"
+                    android:layout_weight="1"
+                    android:elegantTextHeight="false" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SELECT_TIME"
+                    android:id="@+id/btn_time"
+                    android:layout_weight="1"
+                    android:elegantTextHeight="false" />
+                <!-- Blood Glucose mg/dL -->
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Glucose"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:textSize="17dip"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    tools:hint="@string/glucose" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/inputGlucose"
+                    android:layout_weight="1" />
+                <!-- Insulin units -->
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Insulin"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:textSize="17dip"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="@string/insulinTaken" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/inputInsulin"
+                    android:layout_weight="1" />
+                <!-- Comment -->
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Comment"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:textSize="17dip"
+                    android:layout_weight="1" />
+
+                <EditText android:id="@+id/inputNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:lines="4"
+                    android:gravity="top"
+                    android:layout_weight="1" />
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <!-- Button Create daily input -->
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button android:id="@+id/btnBackOptionMenu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/back"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button android:id="@+id/btnSaveDailyInput"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Save Changes"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/alert"
+                            android:layout_alignTop="@+id/quitt"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/imageView3" />
+                    </LinearLayout>
+
+                    <!-- Button back to option menu -->
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>

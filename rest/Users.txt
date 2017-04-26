@@ -1,0 +1,60 @@
+
+
+ New User... [2017-01-20 08:59:49pm]
+ ----------------------------------------
+ Email: joey
+ Password: joey1234
+ Register User: true
+ Get User: 
+ Success. INSERT INTO users (email, password) VALUES ('joey', 'joey1234')
+
+
+ New User... [2017-01-20 08:59:50pm]
+ ----------------------------------------
+ Email: 
+ Password: 
+ Register User: 
+ Get User: true
+
+
+ New User... [2017-01-21 11:30:56am]
+ ----------------------------------------
+ Email: 
+ Password: 
+ Register User: 
+ Get User: true
+
+
+ New User... [2017-01-21 11:30:57am]
+ ----------------------------------------
+ Email: 
+ Password: 
+ Register User: true
+ Get User: 
+ Success. INSERT INTO users (email, password) VALUES ('', '')
+
+
+ New User... [2017-01-21 11:31:02am]
+ ----------------------------------------
+ Email: aaa
+ Password: bbb
+ Register User: true
+ Get User: 
+ Success. INSERT INTO users (email, password) VALUES ('aaa', 'bbb')
+
+
+ New User... [2017-01-21 12:48:47pm]
+ ----------------------------------------
+ Email: 
+ Password: 
+ Register User: 
+ Get User: 
+
+
+ New User... [2017-01-21 12:59:38pm]
+ ----------------------------------------
+ Email: joey@gmail.com
+ Password: abc
+ Register User: true
+ Get User: 
+ Success. INSERT INTO users (email, password) VALUES ('joey@gmail.com', 'abc')

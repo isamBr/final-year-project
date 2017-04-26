@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">DiabeticManagement</string>
+    <string name="Register">Register</string>
+    <string name="Get_User">Login</string>
+    <string name="RadioButton_monthly_input_graph">Monthly input graph</string>
+    <string name="RadioButton_daily_input">Daily input</string>
+    <string name="RadioButton_view_input_result">View monthly results</string>
+    <string name="RadioButton_diabetic_details">Diabetic details</string>
+    <string name="Button_select_option">Select</string>
+    <string name="name">Name </string>
+    <string name="surname">Surname </string>
+    <string name="Select_Gender">Gender </string>
+    <string name="height">Height M </string>
+    <string name="age">Age </string>
+    <string name="back">"Return"</string>
+    <string name="emergency">Emergency Contact </string>
+    <string name="doctor">"Doctor Email"</string>
+    <string name="Save">Save </string>
+    <string name="contact">Mobile </string>
+    <string name="type">Diabetic </string>
+    <string name="ButtonReturn">Menu option </string>
+    <string name="Location">Location</string>
+    <string name="remenber">Remenber login</string>
+    <string name="search">SEARCH</string>
+    <string name="News">Diabetes News</string>
+    <string name="NoConnection">No Connection Found </string>
+    NoConnection
+    <string name="group"></string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Type 1</item>
+        <item>Type 2</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>1-Jan</item>
+        <item>2-Feb</item>
+        <item>3-Mar</item>
+        <item>4-Apr</item>
+        <item>5-May</item>
+        <item>6-Jun</item>
+        <item>7-Jul</item>
+        <item>8-Aug</item>
+        <item>9-Sep</item>
+        <item>10-Oct</item>
+        <item>11-Nov</item>
+        <item>12-Dec</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+
+    <string-array name="graph">
+        <item>Line Graph</item>
+        <item>Bar Graph</item>
+    </string-array>
+
+    <string name="Glucose">Blood Glucose mmol/l </string>
+    <string name="Insulin">Insulin units/ Pills  </string>
+    <string name="date">Date </string>
+    <string name="SELECT_DATE">SELECT DATE </string>
+    <string name="SELECT_TIME">SELECT TIME </string>
+    <string name="Comment">Note </string>
+    <string name="viewGraphB">VIEW</string>
+    <string name="glucose">Please enter your glucose level measured</string>
+    <string name="insulinTaken">Please enter your insulin taken</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
